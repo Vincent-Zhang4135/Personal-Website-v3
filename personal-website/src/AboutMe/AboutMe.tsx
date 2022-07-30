@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutMe.css'
 
-const AboutMe = (props: any): JSX.Element => {
+const AboutMe = (): JSX.Element => {
     return (
         <>
             <section>

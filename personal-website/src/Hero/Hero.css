@@ -1,4 +1,7 @@
 /* Hero styling */
+:root {
+    --hero-multiplier: 1; 
+}
 
 section {
     width: 100%;

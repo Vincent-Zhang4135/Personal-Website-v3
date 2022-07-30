@@ -1,5 +1,14 @@
 import React from 'react';
 import V from './Letters/V'
+import I from './Letters/I'
+import N from './Letters/N'
+import C from './Letters/C'
+import E from './Letters/E'
+import T from './Letters/T'
+import Z from './Letters/Z'
+import H from './Letters/H'
+import A from './Letters/A'
+import G from './Letters/G'
 import './Hero.css'
 
 
@@ -9,7 +18,7 @@ const Hero = (): JSX.Element => {
 			<div className="navbar-space"></div>
 			<section>
 				<div className="container">
-					<V />
+					<V/><I/><N/><C/><E/><N/><T/><Z/><H/><A/><N/><G/>
 				</div>
 			</section>
 		</>
