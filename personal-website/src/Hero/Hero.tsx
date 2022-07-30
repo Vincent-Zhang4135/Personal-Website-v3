@@ -18,9 +18,11 @@ const Hero = (): JSX.Element => {
 			<div className="navbar-space"></div>
 			<section>
 				<div className="container">
-					<V/><I/><N/><C/><E/><N/><T/>
-					<span style={{ paddingLeft: 'calc(5vw + 20px)'}}></span>
-					<Z/><H/><A/><N/><G/>
+					<div className="hero">
+						<span style={{ display: 'inline' }}><V /><I /><N /><C /><E /><N /><T /></span>
+						<span className="space" style={{paddingLeft: 'calc(5vw + 20px)'}}></span><div className="break"></div>
+						<span style={{ display: 'inline' }}><Z /><H /><A /><N /><G /></span>
+					</div>
 				</div>
 			</section>
 		</>

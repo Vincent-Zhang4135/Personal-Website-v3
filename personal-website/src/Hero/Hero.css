@@ -1,6 +1,6 @@
 /* Hero styling */
 :root {
-    --hero-multiplier: 1; 
+    --hero-multiplier: 1;
 }
 
 section {
@@ -14,10 +14,30 @@ section {
 }
 
 .navbar-space {
-    height:10vh;
+    height: 10vh;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 90%;
     height: 80%;
+}
+
+.hero {
+    display: inline;
+}
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+    .space {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .break {
+        display: none; /* hide it elsewhere */
+    }
 }
