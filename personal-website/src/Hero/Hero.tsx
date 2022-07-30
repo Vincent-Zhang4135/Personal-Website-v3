@@ -14,23 +14,24 @@ const icon = {
     }
 }
 
-const transition = { duration: 4, yoyo: Infinity, ease: "easeInOut" }
-
+const transition = { duration: 4, ease: "easeInOut" }
+const transition1 = {
+    default: { default: 10, ease: 'easeInOut' },
+    fill: { duration: 10, ease: 'easeInOut' }
+}
 const Hero = (props: any): JSX.Element => {
     return (
         <>
             <motion.svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
                 viewBox="0 0 213.167 213.167" xmlSpace="preserve">
-                <motion.path variants={icon} fill="bljue"
-                    strokeWidth="20"
+                <motion.path fill="transparent"
+                    strokeWidth="1"
                     stroke="rgba(255, 255, 255, 0.69)"
                     strokeLinecap="round"
-                    initial={{ pathLength: 0 }}
-                    animate={{ pathLength: 1 }}
-                    transition={{
-                        default: { default: 10, ease: 'easeInOut' },
-                        fill: { duration: 10, ease: [1, 0, 0.8, 1] }
-                    }} d="M106.583,167.873c-28.275,0-54.889-6.26-74.938-17.625C11.239,138.678,0,123.172,0,106.583s11.239-32.095,31.646-43.664
+                    initial="hidden"
+                    animate="visible" 
+                    variants={icon}
+                    transition={transition} d="M106.583,167.873c-28.275,0-54.889-6.26-74.938-17.625C11.239,138.678,0,123.172,0,106.583s11.239-32.095,31.646-43.664
 	c20.049-11.366,46.663-17.625,74.938-17.625c28.276,0,54.889,6.26,74.938,17.625c20.407,11.569,31.646,27.076,31.646,43.664
 	s-11.238,32.095-31.646,43.664C161.473,161.614,134.859,167.873,106.583,167.873z M106.583,49.294C50.019,49.294,4,74.994,4,106.583
 	c0,31.59,46.019,57.29,102.583,57.29s102.583-25.7,102.583-57.29C209.167,74.994,163.148,49.294,106.583,49.294z M106.584,152.017
