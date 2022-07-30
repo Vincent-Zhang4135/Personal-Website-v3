@@ -1,8 +1,21 @@
+:root {
+    --clr-background: black;
+    --clr-popup: transparent;
+    --clr-dominant: transparent;
+    --clr-secondary: transparent;
+    --clr-main-text: white;
+    --clr-text-one: transparent;
+    --clr-text-two: transparent;
+    --clr-text-three: transparent;
+    --clr-text-four: transparent;
+    --clr-text-five: transparent;
+
+    --vscode-font: Menlo, Monaco, Courier New, monospace;
+}
+
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-        "Helvetica Neue", sans-serif;
+    font-family: var(--vscode-font); /* VScode font */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

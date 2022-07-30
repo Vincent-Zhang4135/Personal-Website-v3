@@ -29,6 +29,7 @@ const config: Configuration = {
                     },
                 },
             },
+            { test: /\.css$/, loader: "style-loader!css-loader" },
         ],
     },
     resolve: {
