@@ -18,7 +18,9 @@ const Hero = (): JSX.Element => {
 			<div className="navbar-space"></div>
 			<section>
 				<div className="container">
-					<V/><I/><N/><C/><E/><N/><T/><Z/><H/><A/><N/><G/>
+					<V/><I/><N/><C/><E/><N/><T/>
+					<span style={{ paddingLeft: 'calc(5vw + 20px)'}}></span>
+					<Z/><H/><A/><N/><G/>
 				</div>
 			</section>
 		</>
