@@ -9,8 +9,16 @@
     --clr-text-three: transparent;
     --clr-text-four: transparent;
     --clr-text-five: transparent;
-    --hero-multiplier: 1
     --vscode-font: Menlo, Monaco, Courier New, monospace;
+
+    --font-size-h1: calc(30px + 1.2em);
+    --font-size-h2: calc(25px + 1.1em);
+    --font-size-h3: calc(25px + 1.0em);
+    --font-size-h4: calc(20px + 0.8em);
+    --font-size-h5: calc(15px + 0.7em);
+    --font-size-h6: calc(10px + 0.5em);
+    --font-size-txt: calc(10px + 0.3em);
+    --font-size-p: calc(10px + 0.1em);
 }
 
 body {

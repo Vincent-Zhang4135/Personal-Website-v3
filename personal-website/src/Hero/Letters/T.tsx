@@ -11,7 +11,7 @@ const T = (): JSX.Element => {
                 stroke="white"
                 strokeLinecap="round"
                 variants={draw}
-                custom={1} strokeLinejoin="round"
+                custom={2} strokeLinejoin="round"
                 d="M0 2L39.5 2"
             />
             <motion.path
@@ -20,7 +20,7 @@ const T = (): JSX.Element => {
                 stroke="white"
                 strokeLinecap="round"
                 variants={draw}
-                custom={1} strokeLinejoin="round"
+                custom={2} strokeLinejoin="round"
                 d="M19.5 54V2"
             />
         </motion.svg>

@@ -1,8 +1,3 @@
-/* Hero styling */
-:root {
-    --hero-multiplier: 1;
-}
-
 section {
     width: 100%;
     height: 90vh;
@@ -26,6 +21,43 @@ section {
     height: 80%;
 }
 
+.intro {
+    align-self: start;
+    padding: 0px 0px 20px 2vw;
+}
+
+.i-am-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.i-am {
+    padding: calc(10px + 1vw);
+}
+
+.stack {
+    position: relative;
+    width: 25vw;
+    height: calc(10vh + 30px);
+}
+
+.description {
+    border-radius: calc(0.5em + 5px);
+    border-color: white;
+    background-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px;
+    position: absolute;
+    display: inline;
+    font-size: var(--font-size-txt);
+    box-shadow: 0px 0px 10px 5px rgb(191, 191, 191);
+    left: 0;
+    top: 0;
+}
+
 .hero {
     display: inline;
 }
@@ -34,10 +66,15 @@ section {
     .space {
         display: none;
     }
+    
+    .i-am-container {
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .break {
-        display: none; /* hide it elsewhere */
+        display: none;
+        /* hide it elsewhere */
     }
 }

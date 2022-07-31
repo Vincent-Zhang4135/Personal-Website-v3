@@ -11,7 +11,7 @@ const Z = (): JSX.Element => {
                 stroke="white"
                 strokeLinecap="round"
                 variants={draw}
-                custom={1} strokeLinejoin="round"
+                custom={2} strokeLinejoin="round"
                 d="M1.5 1.5H45.5L1.5 61H45.5"
             />
         </motion.svg>
