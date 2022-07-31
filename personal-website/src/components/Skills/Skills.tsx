@@ -3,7 +3,7 @@ import './Skills.css';
 
 const Skills = (): JSX.Element => {
     return (
-        <section>
+        <section id="skills">
             <div>Skills</div>
         </section>
     )

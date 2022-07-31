@@ -1,5 +1,8 @@
 .navbar-space {
-    height: 10vh;
+    height: 0vh; /* might need to revise */
+}
+
+.hero {
 }
 
 .container {

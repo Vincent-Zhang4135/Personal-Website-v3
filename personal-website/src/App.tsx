@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
 import ScrollProgressBar from './components/ScrollProgressBar/ScrollProgressBar';
-import AboutMe from './components/AboutMe/AboutMe';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
-
+import AboutMe from './components/AboutMe/AboutMe';
+import Skills from './components/Skills/Skills';
+import Experience from './components/Experience/Experience';
+import Projects from './components/Projects/Projects';
+import Footer from './components/Footer/Footer';
 
 function App() {
     return (
@@ -14,6 +17,10 @@ function App() {
                 <Navbar/>
                 <Hero/>
                 <AboutMe/>
+                <Skills/>
+                <Experience/>
+                <Projects/>
+                <Footer/>
             </header>
         </div>
     );

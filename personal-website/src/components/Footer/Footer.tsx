@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = (): JSX.Element => {
     return (
-        <section>
+        <section id="footer">
             <div>Footer</div>
         </section>
     )

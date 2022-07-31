@@ -4,7 +4,7 @@ import './AboutMe.css'
 const AboutMe = (): JSX.Element => {
     return (
         <>
-            <section>
+            <section id="aboutme">
                 <div>About Me</div>
             </section>
         </>

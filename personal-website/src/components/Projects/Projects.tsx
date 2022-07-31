@@ -3,7 +3,7 @@ import './Projects.css';
 
 const Projects = (): JSX.Element => {
     return (
-        <section>
+        <section id="projects">
             <div>Projects</div>
         </section>
     )
