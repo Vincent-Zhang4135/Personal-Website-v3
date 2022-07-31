@@ -5,7 +5,7 @@ const AboutMe = (): JSX.Element => {
     return (
         <>
             <section>
-                <div>Test</div>
+                <div>About Me</div>
             </section>
         </>
     )
