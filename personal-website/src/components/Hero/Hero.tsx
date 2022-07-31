@@ -11,7 +11,7 @@ import A from './Letters/A'
 import G from './Letters/G'
 import { motion } from 'framer-motion'
 import './Hero.css'
-import { Description } from '../interfaces'
+import { Description } from '../../interfaces'
 import DescriptionCard from './DescriptionCard';
 
 const Hero = (): JSX.Element => {

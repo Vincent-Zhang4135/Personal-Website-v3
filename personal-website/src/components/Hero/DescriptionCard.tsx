@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Description } from '../interfaces';
+import { Description } from '../../interfaces';
 import './Hero.css'
 
 const DescrptionCard = (description: Description): JSX.Element => {

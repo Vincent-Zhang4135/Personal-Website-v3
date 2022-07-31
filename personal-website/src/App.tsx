@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 import ScrollProgressBar from './components/ScrollProgressBar/ScrollProgressBar';
-import AboutMe from './AboutMe/AboutMe';
-import Navbar from './Navbar/Navbar';
-import Hero from './Hero/Hero';
+import AboutMe from './components/AboutMe/AboutMe';
+import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
 
 
 function App() {
