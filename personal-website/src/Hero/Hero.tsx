@@ -67,7 +67,7 @@ const Hero = (): JSX.Element => {
 						animate={{ opacity: 1, scale: 1 }}
 						transition={{ delay: 5, duration: 1 }}>
 						<span>
-							I am:
+							I am a:
 						</span>
 						<div className="stack">
 							{

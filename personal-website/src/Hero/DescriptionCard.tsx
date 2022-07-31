@@ -21,7 +21,7 @@ const DescrptionCard = (description: Description): JSX.Element => {
             initial={{ opacity: 0.9 }}
             whileHover={{ opacity: 1 }}
             whileDrag={{ scale: 1.1 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.5 }}
             className="description" >
             {description.desc}
         </motion.div >
